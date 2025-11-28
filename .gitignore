@@ -1,6 +1,77 @@
 .DS_Store
 .vscode/
-06-instructors/find_duplicate_packages.sh
 __pycache__/
-.ipynb_checkpoints
+.ipynb_checkpoints/
 tmp/
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.db
+*.sqlite
+
+# PDF and PPTX outputs
+*.pdf
+*.pptx
+
+# Image outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Shell script outputs
+*.sh~
+
+# Misc
+*.log
+*.bak
+*.tmp
+
+# Ignore user-specific files
+*.swp
+*.swo
+
+# Ignore test outputs
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Ignore Python profiling files
+*.prof
+
+# Ignore markdown slide outputs
+*.html
